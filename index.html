@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-  <head>
-    <title>Front End Test - Greenthumb</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./index.scss" />
-  </head>
 
-  <body>
-    <img src="images/hero/logo.svg" alt="Greenthumb" />
-  </body>
+<head>
+  <title>Front End Test - Greenthumb</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./index.scss" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <div class="logo">
+        <img src="images/hero/logo.svg" alt="Greenthumb" />
+      </div>
+      <div class="title">
+        <h1>Find your next green friend</h1>
+      </div>
+    </div>
+  </header>
+
+
+
+  <section>
+    <div>
+      <div>
+        <img src="images/hero/sun.svg" alt="Sun" />
+      </div>
+      <h2 class="">1. Set the amount of sunlight your plant will get</h2>
+    </div>
+    <div class="search">
+      <select name="select"></select>
+    </div>
+
+    <div>
+      <div>
+        <img src="images/hero/wateringcan.svg" alt="wateringcan" />
+      </div>
+      <h2>2. How often do you want to water your plant?</h2>
+    </div>
+    <div class="search">
+      <select name="select"></select>
+    </div>
+
+    <div>
+      <div>
+        <img src="images/hero/dog.svg" alt="dog" />
+      </div>
+      <h2>3. Do you have pets? Do they chew plants?</h2>
+    </div>
+    <div class="search">
+      <select name="select"></select>
+    </div>
+  </section>
+
+  <section class="caution">
+    <h3>Our picks for you</h3>
+  </section>
+
+  <footer class="top">
+    <button name="button">back to the top</button>
+  </footer>
+
+</body>
+
 </html>
