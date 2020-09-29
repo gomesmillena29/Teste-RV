@@ -55,22 +55,17 @@ body
         border-color: #A8A8A8;
         color: #A8A8A8;
         margin: 10%;
-        margin-top: 5%;
-        
-     
+        margin-top: 5%;     
     }
     
     .caution
     {
        color: #6E6E6E;
        background-color: #F2F2F2
-
-
     }
      
     .hand 
     {
-
       padding: 30px;
     }
 
@@ -88,14 +83,16 @@ body
     .last_container
     {
         justify-content: left;
-        padding: 30px
-     
+        padding: 30px  
     }
     
     .top
     {
         align-items: center;
+        margin-top: -10%;
+        padding: 10%;
     }
+
     .come_back
     {
         align-items: center;
@@ -111,7 +108,7 @@ body
        padding: 10px;
        margin: 5%;
        background-color: white;
-
+       flex: 0 0 auto; 
     }
 
     .sub_title
@@ -120,3 +117,72 @@ body
         font-size: large;
         font-weight: bold;
     }
+
+    .value_product
+    {
+        color: #0B2A1E;
+        font-weight: bold; 
+    }
+
+    .containers 
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar; 
+      }
+
+
+@media screen and (min-width: 768px)
+{
+   
+    .logo
+    {
+      padding: 70px;
+    }
+
+    h1,h2
+    {
+        margin-top: -10%;
+        padding: 5%;
+    }
+
+    .filter 
+    {
+        padding: 45px;
+        margin: 5px;
+    }
+
+    .filter > * {
+        width: 50%; 
+        margin: 0 auto;
+    }
+
+    .top
+    {
+        align-items: center;
+        margin-top: -20%;
+        padding: 10%;
+    }
+
+    .come_back
+    {
+        margin: 35%;
+        padding: 2%;
+    }
+}
+    
+@media screen and (min-width: 1024px)
+{
+    .come_back
+    {
+        margin: 35%;
+        padding: 3%;
+    }
+}
+
+@media screen and (min-width: 1080px)
+{
+  
+}
