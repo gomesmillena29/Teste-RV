@@ -180,9 +180,32 @@ body
         margin: 35%;
         padding: 3%;
     }
-}
+    .logo
+    {
+        padding: 90px;
+    }
 
-@media screen and (min-width: 1080px)
-{
-  
+    .filter
+    {
+        display: inline-flex;
+    }
+
+    .filter-container {
+        display: inline-block;
+    }
+    .containers {
+        display: block;
+    }
+
+    .product {
+        display: inline-block;
+        width: 21%;
+    }
+
+    .icons_product > p.value_product{
+        display: inline-block;
+        padding-right: 40%;
+    }
+
+    
 }

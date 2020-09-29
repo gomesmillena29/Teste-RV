@@ -25,40 +25,48 @@
   </header>
 
   <section class="filter">
-    <div>
-      <img src="images/hero/sun.svg" alt="Sun" />
-    </div>
-    <p class="care"><b>1</b>. Set the amount of <strong>sunlight</strong> your plant will get</p>
-    </div>
-    <div>
-      <select name="sun" class="custom-select">
-        <option value="0">select..</option>
-      </select>
-    </div>
-
-    <div>
+    <div class="filter-container">
       <div>
-        <img src="images/hero/wateringcan.svg" alt="wateringcan" />
+        <div>
+          <img src="images/hero/sun.svg" alt="Sun" />
+        </div>
+        <p class="care"><b>1</b>. Set the amount of <strong>sunlight</strong> your plant will get</p>
       </div>
-      <p class="care"><b>2</b>. How often do you want to <strong>water</strong> your plant?</p>
-    </div>
-    <div>
-      <select name="wateringcan" class="custom-select">
-        <option value="1">select..</option>
-      </select>
-    </div>
-
-    <div>
       <div>
-        <img src="images/hero/dog.svg" alt="dog" />
+        <select name="sun" class="custom-select">
+          <option value="0">select..</option>
+        </select>
       </div>
-      <p class="care"><b>3</b>. Do you have pets? Do they <strong>chew</strong> plants?</p>
     </div>
-    <div>
-      <select name="dog" class="custom-select">
-        <option value="3">select...</option>
-      </select>
+    
+    <div class="filter-container">
+      <div>
+        <div>
+          <img src="images/hero/wateringcan.svg" alt="wateringcan" />
+        </div>
+        <p class="care"><b>2</b>. How often do you want to <strong>water</strong> your plant?</p>
+      </div>
+      <div>
+        <select name="wateringcan" class="custom-select">
+          <option value="1">select..</option>
+        </select>
+      </div>
     </div>
+    
+    <div class="filter-container">
+      <div>
+        <div>
+          <img src="images/hero/dog.svg" alt="dog" />
+        </div>
+        <p class="care"><b>3</b>. Do you have pets? Do they <strong>chew</strong> plants?</p>
+      </div>
+      <div>
+        <select name="dog" class="custom-select">
+          <option value="3">select...</option>
+        </select>
+      </div>
+    </div>
+    
   </section>
 
   <section class="caution">
@@ -161,8 +169,7 @@
       </div>
     </div>
     <div class="top">
-      <span>&#8593</span>
-      <button  name="button" class="come_back">back to the top</button>
+      <button  name="button" class="come_back"><span>&#8593</span> back to the top</button>
     </div>
   </section>
 </body>
