@@ -2,6 +2,7 @@
 {
     margin: 0; 
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body
@@ -182,6 +183,7 @@ body
         margin-top: 15%;
         padding: 3%;
     }
+
     .logo
     {
         padding: 90px;
@@ -192,14 +194,18 @@ body
         display: inline-flex;
     }
 
-    .filter-container {
+    .filter-container 
+    {
         display: inline-block;
     }
-    .containers {
+
+    .containers 
+    {
         display: block;
     }
 
-    .product {
+    .product 
+    {
         display: inline-block;
         width: 21%;
     }
@@ -208,7 +214,5 @@ body
         display: inline-block;
         padding-right: 40%;
     }
-    
-
     
 }
